@@ -40,6 +40,10 @@ git clone https://github.com/garypang13/openwrt-adguardhome
 git clone https://github.com/garypang13/luci-app-php-kodexplorer
 git clone https://github.com/garypang13/luci-app-eqos
 cd -
+cd package
+git clone https://github.com/Ameykyl/luci-app-koolproxyR
+git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic
+cd -
 
 cp -Rf ../diy/* ./
 # wget https://raw.githubusercontent.com/openwrt/luci/openwrt-19.07/luci.mk -O feeds/luci/luci.mk
